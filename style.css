@@ -26,7 +26,7 @@ body {
 }
 
 form {
-    background: #D9A689;
+    background:#402718 ;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
@@ -36,7 +36,7 @@ form {
 
 legend, label {
     font-weight: 600;
-    color: #402718;
+    color: white;
 }
 
 input[type="email"],
@@ -80,6 +80,11 @@ fieldset {
     border: none;
     padding: 0;
     margin-bottom: 1rem;
+}
+.container{
+max-width: 500px;
+margin: 0 auto; /* centraliza */
+
 }
 
 
