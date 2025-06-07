@@ -1,26 +1,85 @@
-body{
-background-color: black;
-text-align:center;
-
-
+.form-title {
+   position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-100% - 280px)); /* Move o título para cima do formulário */
+    font-size: 2rem;
+    color: #402718;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+  
 }
 
 
-h1{
-text-align: center;
-color: brown;
 
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
+form {
+    background: #D9A689;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
 
+legend, label {
+    font-weight: 600;
+    color: #402718;
+}
 
-form{
-    text-align: center;
-    background-color: whitesmoke;
+input[type="email"],
+input[type="password"],
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #402718;
+}
 
+input.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    transition: border-color 0.3s;
+}
 
-    
+input.form-control:focus {
+    border-color: #402718;
+    box-shadow: 0 0 0 0.2rem, #402718;
+}
+
+button.btn-primary {
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    background-color: white;
+    color:#402718 ;
+}
+
+button.btn-primary:hover {
+    background-color: #402718;
+}
+
+.form-check-label,
+.col-form-label {
+    margin-bottom: 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 1rem;
 }
 
 
