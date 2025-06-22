@@ -22,7 +22,7 @@
 
     <div class="col-md-6">
       <label for="rm" class="form-label">RM</label>
-      <input type="text" class="form-control" id="rm" name="rm" placeholder="XXXX" maxlength="4" pattern="[0-9]{4}" required />
+      <input type="text" class="form-control" id="rm" name="rm" placeholder="XXXX" maxlength="4" pattern="[0-9]{4}" inputmode="numeric" required  />
     </div>
 
     <div class="col-12">
